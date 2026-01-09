@@ -8,7 +8,7 @@ Learn more at [configcobra.com](https://configcobra.com)
 
 > 💬 **Questions, Bug Reports, or Feedback?**
 > 
-> Found a bug 🐛, have a question ❓, or want to share feedback 💡? Visit our [GitHub Issues](https://github.com/Digital-Technologies-Holding/ConfigCobra/issues) or [ConfigCobra Contact](https://configcobra.com/contact) page to report issues, ask questions, or share your suggestions. We appreciate your input and will do our best to respond promptly!
+> Found a bug 🐛, have a question ❓, or want to share feedback 💡? Visit our [ConfigCobra Support](https://configcobra.com/#contact) page to report issues, ask questions, or share your suggestions. We appreciate your input and will do our best to respond promptly!
 
 ## 💡 What is ConfigCobra?
 
@@ -173,7 +173,7 @@ Each assessment provides detailed information including:
 
 For questions, issues, or support requests, please contact us at **info@digitechold.com** or visit [configcobra.com](https://configcobra.com) for more information.
 
-You can also report bugs 🐛, ask questions ❓, or share feedback 💡 on our [GitHub Issues](https://github.com/Digital-Technologies-Holding/ConfigCobra/issues) page.
+You can also report bugs 🐛, ask questions ❓, or share feedback 💡 on our [ConfigCobra Support](https://configcobra.com/#contact) page.
 
 ## 🔗 Links
 
@@ -181,7 +181,7 @@ You can also report bugs 🐛, ask questions ❓, or share feedback 💡 on our 
 - 🌍 **Website**: [configcobra.com](https://configcobra.com)
 - 🛒 **Microsoft AppSource**: [Get ConfigCobra](https://marketplace.microsoft.com/en-us/product/saas/nologiesholdingkorltoltfelelssgtrsasg1726131505636.config_cobra_01?tab=Overview)
 - 🏆 **CIS Benchmark**: [CIS Microsoft 365 Foundations Benchmark](https://www.cisecurity.org/benchmark/microsoft_365)
-- 💬 **GitHub Issues**: [Report Issues & Questions](https://github.com/Digital-Technologies-Holding/ConfigCobra/issues)
+- 💬 **Support**: [Report Issues & Questions](https://configcobra.com/#contact)
 
 ---
 

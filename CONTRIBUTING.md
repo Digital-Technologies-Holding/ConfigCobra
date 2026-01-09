@@ -8,17 +8,17 @@ Found a bug? We'd love to hear about it! Use our **Bug Report** template to subm
 
 ### Before Submitting a Bug Report
 
-- ✅ Check if the bug has already been reported in [existing issues](https://github.com/Digital-Technologies-Holding/ConfigCobra/issues)
+- ✅ Check if the bug has already been reported on our [support page](https://configcobra.com/#contact)
 - ✅ Make sure you're using the latest version of ConfigCobra
 - ✅ Gather relevant information (browser, screenshots, error messages, steps to reproduce)
 
 ### How to Report a Bug
 
-1. Go to the [Issues page](https://github.com/Digital-Technologies-Holding/ConfigCobra/issues)
-2. Click **"New Issue"**
-3. Select **"Bug Report"** template
-4. Fill out all the relevant information
-5. Submit the issue
+1. Go to the [ConfigCobra Support page](https://configcobra.com/#contact)
+2. Fill out the bug report form with all relevant information
+3. Submit your report
+
+You can also use the bug report form on the support page, which will help us track and address your issue.
 
 A good bug report should include:
 - 📝 Clear description of the bug
@@ -33,12 +33,11 @@ Have an idea for a new feature or improvement? We welcome your suggestions!
 
 ### How to Request a Feature
 
-1. Go to the [Issues page](https://github.com/Digital-Technologies-Holding/ConfigCobra/issues)
-2. Click **"New Issue"**
-3. Select **"Feature Request"** template
-4. Describe your idea in detail
-5. Explain the use case and benefits
-6. Submit the issue
+1. Go to the [ConfigCobra Support page](https://configcobra.com/#contact)
+2. Fill out the feature request form
+3. Describe your idea in detail
+4. Explain the use case and benefits
+5. Submit your request
 
 A good feature request should include:
 - 📝 Clear description of the feature
@@ -48,7 +47,7 @@ A good feature request should include:
 
 ## 📧 Alternative: Contact Form
 
-You can also submit bug reports and feature requests through our [contact form](https://configcobra.com/contact), which automatically creates GitHub issues with templates for better organization.
+You can submit bug reports and feature requests through our [support page](https://configcobra.com/#contact).
 
 ## 🔍 Other Questions
 

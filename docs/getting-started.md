@@ -91,5 +91,5 @@ Visit [configcobra.com](https://configcobra.com) for additional resources and su
 
 ---
 
-[← Back to Documentation](./README.md) | [Next: Assessments →](./assessments.md)
+[← Back to Documentation](../README.md) | [Next: Assessments →](./assessments.md)
 

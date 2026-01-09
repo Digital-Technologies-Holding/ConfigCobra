@@ -47,7 +47,7 @@ To delete a rule set, press the **delete button** on the right of the desired ru
 
 ## 💡 Best Practices
 
-- **📋 Create rule sets based on compliance requirements** (e.g., SOC 2, ISO 27001, GDPR)
+- **📋 Create rule sets based on compliance requirements** (e.g., SOC 2, ISO 27001, GDPR) - See [Compliance Mapping](./compliance-mapping.md) for detailed mapping information
 - **📝 Name your rule sets descriptively** to easily identify their purpose
 - **⏰ Use rule sets in scheduled scans** to ensure consistent monitoring of critical controls
 - **🔄 Review and update rule sets regularly** as your compliance needs evolve
@@ -60,6 +60,8 @@ Create rule sets that align with specific compliance frameworks:
 - 🌍 ISO 27001 requirements
 - 🛡️ GDPR data protection controls
 - 🏢 Industry-specific regulations
+
+**📊 See mapping details:** [Compliance Mapping](./compliance-mapping.md)
 
 ### 🚨 Critical Security Controls
 Focus on the most important security controls for your organization:
@@ -83,5 +85,5 @@ Create rule sets for different departments or teams:
 
 ---
 
-[← Back to Documentation](./README.md) | [Next: Scheduled Scans →](./schedules.md)
+[← Back to Documentation](../README.md) | [Next: Scheduled Scans →](./schedules.md)
 

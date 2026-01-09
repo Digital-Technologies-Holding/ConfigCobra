@@ -136,5 +136,5 @@ Read-only access to view assessments, reports, and dashboard data. Cannot make c
 
 ---
 
-[← Back to Documentation](./README.md)
+[← Back to Documentation](../README.md)
 

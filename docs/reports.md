@@ -90,5 +90,5 @@ Detailed results organized by benchmark. Each benchmark can be expanded to view:
 
 ---
 
-[← Back to Documentation](./README.md) | [Next: Rule Sets →](./rule-sets.md)
+[← Back to Documentation](../README.md) | [Next: Rule Sets →](./rule-sets.md)
 

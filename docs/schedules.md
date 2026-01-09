@@ -84,7 +84,7 @@ Schedule weekly assessments for standard compliance requirements to maintain reg
 Create monthly schedules for full CIS Benchmark Level 1 and Level 2 assessments to ensure comprehensive coverage.
 
 ### 🌍 Multi-Standard Compliance
-Set up separate schedules for different compliance frameworks (SOC 2, ISO 27001, etc.) using custom rule sets.
+Set up separate schedules for different compliance frameworks (SOC 2, ISO 27001, etc.) using custom rule sets. See [Compliance Mapping](./compliance-mapping.md) for detailed mapping information.
 
 ## 💡 Tips
 
@@ -95,5 +95,5 @@ Set up separate schedules for different compliance frameworks (SOC 2, ISO 27001,
 
 ---
 
-[← Back to Documentation](./README.md) | [Next: Notifications →](./notifications.md)
+[← Back to Documentation](../README.md) | [Next: Notifications →](./notifications.md)
 

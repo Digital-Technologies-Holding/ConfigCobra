@@ -2,7 +2,7 @@
 
 **Automated CIS Compliance for Microsoft 365**
 
-ConfigCobra is a SaaS application that automates CIS Microsoft 365 Foundations Benchmark assessments. We provide comprehensive mapping and compliance coverage across multiple security standards and frameworks, including SOC 2, NIS2, HIPAA, PCI DSS, ISO 27001, and many more.
+ConfigCobra is a SaaS application that automates [CIS Microsoft 365 Foundations Benchmark](https://www.cisecurity.org/benchmark/microsoft_365) assessments. We provide comprehensive theoretical mapping between CIS controls and 24+ security standards and frameworks, including SOC 2, NIS2, HIPAA, PCI DSS, ISO 27001, and many more. **Note:** Currently, ConfigCobra generates CIS-certified reports only. Framework-specific certified reports are planned for future releases.
 
 Learn more at [configcobra.com](https://configcobra.com)
 
@@ -21,16 +21,16 @@ Visit [configcobra.com](https://configcobra.com) to learn more about our feature
 - ✅ **Automated Assessments** - Runs automated assessments of all 129 CIS controls
 - ✅ **Real-time Detection** - Detects configuration drift in real-time
 - ✅ **Remediation Guidance** - Provides clear remediation guidance for each finding
-- ✅ **Audit-ready Reports** - Generates CIS-approved PDF reports with evidence
+- ✅ **Audit-ready Reports** - Generates [CIS-approved](https://www.cisecurity.org/) PDF reports with evidence. [View Example Report](images/ConfigCobraApp/Reports/ExampleReport.pdf)
 - ✅ **Scheduled Monitoring** - Schedules continuous compliance monitoring
 - ✅ **Team Collaboration** - Enables team collaboration and role management
-- ✅ **Multi-Standard Support** - Comprehensive mapping across 24+ security standards
+- ✅ **Multi-Standard Mapping** - Theoretical mapping between CIS controls and 24+ security standards (see [Compliance Mapping](./docs/compliance-mapping.md))
 
 ## 🚀 Quick Start
 
 Follow these simple steps to set up ConfigCobra and run your first CIS compliance assessment for Microsoft 365.
 
-![ConfigCobra Dashboard](../images/ConfigCobraApp/Dashboard/01_Dashboard.png)
+![ConfigCobra Dashboard](images/ConfigCobraApp/Dashboard/01_Dashboard.png)
 
 > ⚠️ **Important License Requirements**
 > 
@@ -44,37 +44,37 @@ Visit the [Microsoft AppSource marketplace](https://marketplace.microsoft.com/en
 
 1. Go to Microsoft AppSource and press **"Get it now"**
 
-   ![Get it now button on Microsoft AppSource](../images/MicrosoftAppSource/01_GetItNow.png)
+   ![Get it now button on Microsoft AppSource](images/MicrosoftAppSource/01_GetItNow.png)
 
 2. To acquire a free trial, please select the **Standard** plan
 
-   ![Select Standard plan for free trial](../images/MicrosoftAppSource/02_Plan.png)
+   ![Select Standard plan for free trial](images/MicrosoftAppSource/02_Plan.png)
 
 ### Step 2: Provide your user count
 
 Enter the number of licensed users in your organization. **This is important** because the application only works if you have that many licenses as many licensed users you have (excluded guest users).
 
-![Terms and user count selection](../images/MicrosoftAppSource/03_Terms&UserCount.png)
+![Terms and user count selection](images/MicrosoftAppSource/03_Terms&UserCount.png)
 
 ### Step 3: Complete your order
 
 Select your billing account and billing profile, then place your order through the Microsoft AppSource checkout process.
 
-![Select billing account](../images/MicrosoftAppSource/04_BillingAccount.png)
+![Select billing account](images/MicrosoftAppSource/04_BillingAccount.png)
 
-![Complete purchase](../images/MicrosoftAppSource/05_CompletePurchase.png)
+![Complete purchase](images/MicrosoftAppSource/05_CompletePurchase.png)
 
 ### Step 4: Activate your subscription
 
 Follow the activation link to our fulfillment platform and activate your subscription. This link will be provided after you complete your purchase on Microsoft AppSource.
 
-![Activate subscription](../images/MicrosoftAppSource/06_ActivateSubscription.png)
+![Activate subscription](images/MicrosoftAppSource/06_ActivateSubscription.png)
 
 ### Step 5: Receive confirmation email
 
 Once your subscription is activated by our team, you will receive a confirmation email with your login credentials and next steps.
 
-![Activation confirmation email](../images/MicrosoftAppSource/07_ActivationEmail.png)
+![Activation confirmation email](images/MicrosoftAppSource/07_ActivationEmail.png)
 
 ### Step 6: Log in to ConfigCobra
 
@@ -84,15 +84,15 @@ Head to [app.configcobra.com](https://app.configcobra.com) and log in using the 
 
 Accept all the permissions on the admin consent page. This is required for ConfigCobra to access and assess your Microsoft 365 configurations.
 
-![Admin consent page - Part 1](../images/MicrosoftAppSource/08_AdminConsent1.png)
+![Admin consent page - Part 1](images/MicrosoftAppSource/08_AdminConsent1.png)
 
-![Admin consent page - Part 2](../images/MicrosoftAppSource/09_AdminConsent2.png)
+![Admin consent page - Part 2](images/MicrosoftAppSource/09_AdminConsent2.png)
 
 ### Step 8: Configure missing permissions
 
 After login, go to the **Assessment page**. You will see some controls that have a **Missing Permissions** blue tag.
 
-![Assessment page with Missing Permissions tags](../images/MicrosoftAppSource/10_RolePermissions.png)
+![Assessment page with Missing Permissions tags](images/MicrosoftAppSource/10_RolePermissions.png)
 
 **If you are an administrator:**
 - Select all permissions as an administrator and activate them
@@ -100,7 +100,7 @@ After login, go to the **Assessment page**. You will see some controls that have
 **If you are a regular user:**
 - Send the instructions provided in the **Do It Manually** section to your global administrator to grant the necessary permissions
 
-  ![Assign role permissions as administrator](../images/MicrosoftAppSource/11_RolePermissionsAssign.png)
+  ![Assign role permissions as administrator](images/MicrosoftAppSource/11_RolePermissionsAssign.png)
 
 ## ✅ You're Ready!
 
@@ -112,13 +112,24 @@ For more information and resources, visit [configcobra.com](https://configcobra.
 
 ### Core Features
 
-- 📖 **[Getting Started](./getting-started.md)** - Complete setup guide from subscription to first assessment
-- 🎯 **[Assessments](./assessments.md)** - How to run CIS compliance assessments and understand results
-- 📄 **[Reports & Evidence](./reports.md)** - View, download, and understand CIS-approved assessment reports
-- 📋 **[Rule Sets](./rule-sets.md)** - Create custom collections of CIS controls for your organization
-- ⏰ **[Scheduled Scans](./schedules.md)** - Automate compliance assessments with daily, weekly, or monthly runs
-- 🔔 **[Notifications & Settings](./notifications.md)** - Configure notifications and customize your experience
-- 👥 **[User Management](./user-management.md)** - Manage team access and permissions with Azure Entra integration
+- 📖 **[Getting Started](./docs/getting-started.md)** - Complete setup guide from subscription to first assessment
+- 🎯 **[Assessments](./docs/assessments.md)** - How to run CIS compliance assessments and understand results
+- 📄 **[Reports & Evidence](./docs/reports.md)** - View, download, and understand CIS-approved assessment reports
+- 📋 **[Rule Sets](./docs/rule-sets.md)** - Create custom collections of CIS controls for your organization
+- ⏰ **[Scheduled Scans](./docs/schedules.md)** - Automate compliance assessments with daily, weekly, or monthly runs
+- 🔔 **[Notifications & Settings](./docs/notifications.md)** - Configure notifications and customize your experience
+- 👥 **[User Management](./docs/user-management.md)** - Manage team access and permissions with Azure Entra integration
+
+### Additional Resources
+
+- 📊 **[Compliance Mapping](./docs/compliance-mapping.md)** - Detailed mapping between CIS M365 and 24+ security standards
+- 🏥 **[Use Cases](./use-cases/)** - Industry-specific use cases and implementation examples:
+  - [Healthcare](./use-cases/healthcare.md) - HIPAA compliance for healthcare providers
+  - [Financial Services](./use-cases/financial-services.md) - PCI DSS and financial regulations
+  - [Government Contractors](./use-cases/government-contractor.md) - CMMC and NIST frameworks
+  - [Enterprise Multi-Standard](./use-cases/enterprise-compliance.md) - Managing multiple compliance frameworks
+- 📝 **[Changelog](./CHANGELOG.md)** - Version history and release notes
+- 🤝 **[Contributing](./CONTRIBUTING.md)** - Guidelines for reporting bugs and requesting features
 
 ## 🔍 What ConfigCobra Does
 
@@ -126,21 +137,26 @@ For more information and resources, visit [configcobra.com](https://configcobra.
 
 ConfigCobra automatically assesses your Microsoft 365 environment against CIS Benchmark standards. The platform:
 
-- 🔎 Scans all 129 CIS controls for Microsoft 365 Foundations Benchmark
+- 🔎 Scans all 129 CIS controls for [Microsoft 365 Foundations Benchmark](https://www.cisecurity.org/benchmark/microsoft_365)
 - 🚨 Detects misconfigurations and security gaps
 - 📝 Provides detailed remediation instructions
-- 📊 Generates audit-ready PDF reports
+- 📊 Generates audit-ready PDF reports ([Example Report](images/ConfigCobraApp/Reports/ExampleReport.pdf))
 
-### 🌍 Multi-Standard Compliance
+### 🌍 Multi-Standard Compliance Mapping
 
-Beyond CIS Benchmarks, ConfigCobra provides comprehensive mapping and compliance coverage across multiple security standards:
+ConfigCobra provides comprehensive **theoretical mapping** between CIS Microsoft 365 Foundations Benchmark controls and various security standards. While we currently generate **CIS-certified reports only**, our compliance mapping helps you understand how CIS assessments relate to other frameworks. See our [Compliance Mapping](./docs/compliance-mapping.md) documentation for details.
 
-- **SOC 2** - Service Organization Control 2 compliance
+**Supported mappings include:**
+- **SOC 2** - Service Organization Control 2
 - **NIS2** - EU Network and Information Systems Directive 2
 - **HIPAA** - Health Insurance Portability and Accountability Act
 - **PCI DSS** - Payment Card Industry Data Security Standard
 - **ISO 27001** - Information Security Management System
 - And 19+ more standards and frameworks
+
+**📊 See the complete mapping table:** [Compliance Mapping](./docs/compliance-mapping.md)
+
+**Note:** Framework-specific certified reports are planned for future releases. Currently, CIS-certified reports can be used alongside the mapping to support compliance with other standards.
 
 ### 📊 Assessment Results
 
@@ -164,6 +180,7 @@ You can also report bugs 🐛, ask questions ❓, or share feedback 💡 on our 
 - 🌐 **Application**: [app.configcobra.com](https://app.configcobra.com)
 - 🌍 **Website**: [configcobra.com](https://configcobra.com)
 - 🛒 **Microsoft AppSource**: [Get ConfigCobra](https://marketplace.microsoft.com/en-us/product/saas/nologiesholdingkorltoltfelelssgtrsasg1726131505636.config_cobra_01?tab=Overview)
+- 🏆 **CIS Benchmark**: [CIS Microsoft 365 Foundations Benchmark](https://www.cisecurity.org/benchmark/microsoft_365)
 - 💬 **GitHub Issues**: [Report Issues & Questions](https://github.com/Digital-Technologies-Holding/ConfigCobra/issues)
 
 ---

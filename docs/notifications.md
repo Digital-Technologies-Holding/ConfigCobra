@@ -97,5 +97,5 @@ Personalize your ConfigCobra experience by selecting **🎨 custom color themes*
 
 ---
 
-[← Back to Documentation](./README.md) | [Next: User Management →](./user-management.md)
+[← Back to Documentation](../README.md) | [Next: User Management →](./user-management.md)
 

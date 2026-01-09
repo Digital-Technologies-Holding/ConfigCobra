@@ -115,5 +115,5 @@ The control partially meets the CIS Benchmark requirement. Some configuration se
 
 ---
 
-[← Back to Documentation](./README.md) | [Next: Reports →](./reports.md)
+[← Back to Documentation](../README.md) | [Next: Reports →](./reports.md)
 

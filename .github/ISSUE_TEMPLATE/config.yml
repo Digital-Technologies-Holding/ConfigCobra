@@ -1,0 +1,9 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 ConfigCobra Support
+    url: https://configcobra.com/contact
+    about: Contact us for support, questions, or general inquiries
+  - name: 📧 Email Support
+    url: mailto:info@digitechold.com
+    about: Send us an email for direct support
+

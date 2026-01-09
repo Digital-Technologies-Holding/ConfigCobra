@@ -6,7 +6,7 @@ ConfigCobra is a SaaS application that automates CIS Microsoft 365 Foundations B
 
 > 💬 **Questions, Bug Reports, or Feedback?**
 > 
-> Found a bug 🐛, have a question ❓, or want to share feedback 💡? Visit our [GitHub Issues](https://github.com/Digital-Technologies-Holding/ConfigCobra/issues) page to report issues, ask questions, or share your suggestions. We appreciate your input and will do our best to respond promptly!
+> Found a bug 🐛, have a question ❓, or want to share feedback 💡? Visit our [GitHub Issues](https://github.com/Digital-Technologies-Holding/ConfigCobra/issues) or [ConfigCobra Contact](https://configcobra.com/contact) page to report issues, ask questions, or share your suggestions. We appreciate your input and will do our best to respond promptly!
 
 ## 💡 What is ConfigCobra?
 

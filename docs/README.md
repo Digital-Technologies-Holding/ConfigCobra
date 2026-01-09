@@ -30,6 +30,8 @@ Visit [configcobra.com](https://configcobra.com) to learn more about our feature
 
 Follow these simple steps to set up ConfigCobra and run your first CIS compliance assessment for Microsoft 365.
 
+![ConfigCobra Dashboard](../images/ConfigCobraApp/Dashboard/01_Dashboard.png)
+
 > ⚠️ **Important License Requirements**
 > 
 > CIS Benchmarks are based on **Microsoft 365 E3 and E5 licenses**. Although we can scan some controls without them, having some kind of **Microsoft Defender license** (Defender for Office 365, Defender for Endpoint, or Microsoft Defender XDR) is a **minimum requirement** for full functionality.

@@ -4,6 +4,8 @@
 
 ConfigCobra is a SaaS application that automates CIS Microsoft 365 Foundations Benchmark assessments. We provide comprehensive mapping and compliance coverage across multiple security standards and frameworks, including SOC 2, NIS2, HIPAA, PCI DSS, ISO 27001, and many more.
 
+Learn more at [configcobra.com](https://configcobra.com)
+
 > 💬 **Questions, Bug Reports, or Feedback?**
 > 
 > Found a bug 🐛, have a question ❓, or want to share feedback 💡? Visit our [GitHub Issues](https://github.com/Digital-Technologies-Holding/ConfigCobra/issues) or [ConfigCobra Contact](https://configcobra.com/contact) page to report issues, ask questions, or share your suggestions. We appreciate your input and will do our best to respond promptly!
@@ -11,6 +13,8 @@ ConfigCobra is a SaaS application that automates CIS Microsoft 365 Foundations B
 ## 💡 What is ConfigCobra?
 
 ConfigCobra automates CIS compliance scanning for Microsoft 365. It detects misconfigurations, provides remediation guidance, and generates audit-ready reports to help organizations stay compliant with security standards.
+
+Visit [configcobra.com](https://configcobra.com) to learn more about our features and capabilities.
 
 ### ✨ Key Features
 
@@ -100,6 +104,8 @@ After login, go to the **Assessment page**. You will see some controls that have
 
 Once you've completed all the steps above, you can navigate to the Assessment page and start running your first CIS compliance scan. ConfigCobra will automatically check your Microsoft 365 configurations against CIS Benchmark standards.
 
+For more information and resources, visit [configcobra.com](https://configcobra.com).
+
 ## 📚 Documentation
 
 ### Core Features
@@ -147,7 +153,7 @@ Each assessment provides detailed information including:
 
 ## 💬 Support
 
-For questions, issues, or support requests, please contact us at **info@digitechold.com**.
+For questions, issues, or support requests, please contact us at **info@digitechold.com** or visit [configcobra.com](https://configcobra.com) for more information.
 
 You can also report bugs 🐛, ask questions ❓, or share feedback 💡 on our [GitHub Issues](https://github.com/Digital-Technologies-Holding/ConfigCobra/issues) page.
 
@@ -160,5 +166,5 @@ You can also report bugs 🐛, ask questions ❓, or share feedback 💡 on our 
 
 ---
 
-**ConfigCobra** - Automated CIS Compliance for Microsoft 365
+**ConfigCobra** - Automated CIS Compliance for Microsoft 365 | [configcobra.com](https://configcobra.com)
 

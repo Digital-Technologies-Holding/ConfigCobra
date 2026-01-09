@@ -2,6 +2,8 @@
 
 Access, download, and understand your CIS-approved assessment reports for compliance audits and documentation.
 
+Learn more at [configcobra.com](https://configcobra.com)
+
 ## What are Reports?
 
 Reports are **CIS-approved and certified** documents that can be downloaded as **PDF files** and presented as **proof during an audit**. These comprehensive reports provide detailed evidence of your organization's compliance status with CIS Benchmark standards for Microsoft 365.

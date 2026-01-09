@@ -2,6 +2,8 @@
 
 Automate your compliance assessments by scheduling regular CIS Benchmark scans with custom timing and benchmark selections.
 
+Learn more at [configcobra.com](https://configcobra.com)
+
 ## What is Scheduler?
 
 The Scheduler allows you to schedule assessment runs **anyway you want**: **daily, weekly, monthly**, etc. You can use **rule sets** or you can select **specific benchmarks**. You can use **multiple of these** to create different schedules for different compliance needs.

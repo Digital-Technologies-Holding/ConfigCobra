@@ -8,6 +8,8 @@ All user management in ConfigCobra is handled with **Azure Entra** (formerly Azu
 
 **Single Sign-On (SSO):** Users authenticate using their existing Azure Entra credentials, providing a seamless and secure login experience without separate passwords or accounts.
 
+For more information, visit [configcobra.com](https://configcobra.com).
+
 ## How to Manage Users
 
 ### Step 1: Log in to ConfigCobra

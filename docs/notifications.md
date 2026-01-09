@@ -8,6 +8,8 @@ Settings for notifying you about important events in ConfigCobra. Configure Wind
 
 **Stay informed:** Enable notifications to ensure you never miss important assessment results or account changes. You can customize which events trigger notifications based on your preferences.
 
+For more information, visit [configcobra.com](https://configcobra.com).
+
 ## How to Configure Settings
 
 ### Step 1: Log in to ConfigCobra

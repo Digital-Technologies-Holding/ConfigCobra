@@ -6,6 +6,8 @@ Learn how to configure and run automated CIS Benchmark assessments for Microsoft
 
 The Assessment feature allows you to run manual CIS compliance scans on your Microsoft 365 environment. You can select specific benchmarks, rule sets, or run comprehensive assessments covering all CIS controls.
 
+For more information, visit [configcobra.com](https://configcobra.com).
+
 ## How to Run an Assessment
 
 ### Step 1: Log in to ConfigCobra

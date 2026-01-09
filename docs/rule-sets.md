@@ -2,6 +2,8 @@
 
 Create custom collections of CIS controls tailored to your organization's specific compliance needs.
 
+Learn more at [configcobra.com](https://configcobra.com)
+
 ## What are Rule Sets?
 
 Rule sets are designed to help users track their environment where it matters to them. You can select which controls you want to assess in the rule set and manually select it on each assessment run or select this in a [scheduled scan](./schedules.md). That way you know that you are not missing none of the important benchmarks for you.

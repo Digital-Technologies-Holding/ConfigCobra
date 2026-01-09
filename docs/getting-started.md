@@ -67,10 +67,12 @@ After login, go to the **Assessment page**. You will see some controls that have
 **If you are an administrator:**
 - Select all permissions as an administrator and activate them
 
-  ![Assign role permissions as administrator](../images/MicrosoftAppSource/11_RolePermissionsAssign.png)
-
 **If you are a regular user:**
 - Send the instructions provided in the **Do It Manually** section to your global administrator to grant the necessary permissions
+
+  ![Assign role permissions as administrator](../images/MicrosoftAppSource/11_RolePermissionsAssign.png)
+
+
 
 ## You're Ready!
 

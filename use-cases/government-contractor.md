@@ -51,24 +51,24 @@ A defense contractor needs to achieve CMMC Level 2 certification to bid on Depar
 ## 🔍 Key Controls for Government Contractors
 
 ### Controlled Unclassified Information (CUI) Protection
-- **CIS Control 3.1** - Establish and maintain data security policy
-- **CIS Control 13.1** - Maintain secure configurations
 - Ensure CUI is properly protected according to NIST 800-171
+- Maintain secure configurations for sensitive data
+- Establish and maintain data security policies
 
 ### Access Control
-- **CIS Control 5.1** - Inventory of accounts
-- **CIS Control 6.1** - Inventory of authorized software
 - Implement multi-factor authentication and least privilege
+- Maintain inventory of accounts and authorized software
+- Monitor user access and permissions
 
 ### Audit and Accountability
-- **CIS Control 8.2** - Collect audit logs
-- **CIS Control 8.5** - Centralize log management
 - Maintain comprehensive audit trails for CUI access
+- Centralize log management and monitoring
+- Collect and analyze security audit logs
 
 ### Incident Response
-- **CIS Control 17.1** - Establish incident response plan
-- **CIS Control 17.2** - Test incident response capability
 - Support rapid incident detection and response
+- Establish and maintain incident response capabilities
+- Test incident response procedures regularly
 
 ## 📊 Benefits
 

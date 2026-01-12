@@ -51,19 +51,19 @@ A mid-sized healthcare provider with 500 employees uses Microsoft 365 for collab
 ## 🔍 Key Controls for Healthcare
 
 ### Access Control
-- **CIS Control 6.1** - Establish and maintain an inventory of authorized software
-- **CIS Control 6.3** - Deploy automated software inventory tools
 - Ensure only authorized personnel can access patient data
+- Monitor user access permissions and role assignments
+- Implement proper access controls for PHI
 
 ### Encryption
-- **CIS Control 13.1** - Maintain standard security configurations
 - Verify encryption settings for email and file sharing
 - Ensure data encryption meets HIPAA requirements
+- Maintain secure configurations for data protection
 
 ### Audit Logging
-- **CIS Control 8.2** - Collect audit logs
 - Monitor access to patient health information (PHI)
 - Maintain audit trails for compliance reporting
+- Track all access to sensitive healthcare data
 
 ## 📊 Benefits
 

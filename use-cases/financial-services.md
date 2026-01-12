@@ -54,24 +54,24 @@ A regional bank processes credit card transactions through Microsoft 365 service
 ## 🔍 Key Controls for Financial Services
 
 ### Payment Card Data Protection
-- **CIS Control 13.1** - Maintain secure configurations
-- **CIS Control 8.2** - Collect audit logs
 - Ensure cardholder data is encrypted and access is restricted
+- Maintain secure configurations for payment processing
+- Collect and monitor audit logs for cardholder data access
 
 ### Access Management
-- **CIS Control 6.1** - Inventory of authorized software
-- **CIS Control 5.1** - Establish and maintain inventory of accounts
 - Implement strong authentication and least privilege access
+- Maintain inventory of accounts and authorized software
+- Monitor user access and permissions
 
 ### Network Security
-- **CIS Control 12.1** - Establish and maintain a security awareness program
-- **CIS Control 11.1** - Maintain inventory of network devices
 - Monitor network access and secure configurations
+- Maintain inventory of network devices
+- Establish and maintain security awareness programs
 
 ### Audit and Monitoring
-- **CIS Control 8.2** - Collect audit logs
-- **CIS Control 8.5** - Centralize log management
 - Maintain comprehensive audit trails for compliance
+- Centralize log management and monitoring
+- Collect and analyze security audit logs
 
 ## 📊 Benefits
 

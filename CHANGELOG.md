@@ -22,7 +22,7 @@ We're excited to announce the first release of ConfigCobra v1.0.0 - your compreh
 #### Assessment Capabilities
 - ✅ **Ad-Hoc (Manual) Assessments** - Run assessments on-demand at any time
 - ✅ **Flexible Benchmark Selection** - Choose specific benchmarks, rule sets, or comprehensive coverage
-- ✅ **Assessment Overview** - Preview scan configuration, estimated duration, and controls to be assessed
+- ✅ **Assessment Overview** - Preview scan configuration and controls to be assessed
 - ✅ **Assessment History** - View last assessment results on the Assessment page
 
 #### Scheduled Assessments

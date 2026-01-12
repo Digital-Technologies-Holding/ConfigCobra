@@ -47,7 +47,6 @@ Select the desired benchmarks you want to assess. You can choose from:
 You will see an **Overview page** of your scan configuration, showing:
 
 - ✅ Selected benchmarks and rule sets
-- ⏱️ Estimated scan duration
 - 🔍 Controls that will be assessed
 
 If you are happy with the configuration, press **START SCANNING** to begin the assessment.

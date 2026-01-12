@@ -62,9 +62,9 @@ Accept all the permissions on the admin consent page. This is required for Confi
 
 ### Step 8: Configure missing permissions
 
-After login, go to the **Assessment page**. You will see some controls that have a **Missing Permissions** blue tag.
+After login, go to the **Assessment page**. You will see some controls that have a **Role required** blue tag.
 
-![Assessment page with Missing Permissions tags](../images/MicrosoftAppSource/10_RolePermissions.png)
+![Assessment page with Role required tags](../images/MicrosoftAppSource/10_RolePermissions.png)
 
 **If you are an administrator:**
 - Select all permissions as an administrator and activate them

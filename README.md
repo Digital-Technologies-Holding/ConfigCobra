@@ -21,16 +21,16 @@ Visit [configcobra.com](https://configcobra.com) to learn more about our feature
 - ✅ **Automated Assessments** - Runs automated assessments of all 129 CIS controls
 - ✅ **Real-time Detection** - Detects configuration drift in real-time
 - ✅ **Remediation Guidance** - Provides clear remediation guidance for each finding
-- ✅ **Audit-ready Reports** - Generates [CIS-approved](https://www.cisecurity.org/) PDF reports with evidence. [View Example Report](images/ConfigCobraApp/Reports/ExampleReport.pdf)
+- ✅ **Audit-ready Reports** - Generates [CIS-approved](https://www.cisecurity.org/) PDF reports with evidence. [View Example Report](resources/images/ConfigCobraApp/Reports/ExampleReport.pdf)
 - ✅ **Scheduled Monitoring** - Schedules continuous compliance monitoring
 - ✅ **Team Collaboration** - Enables team collaboration and role management
 - ✅ **Multi-Standard Mapping** - Theoretical mapping between CIS controls and 24+ security standards (see [Compliance Mapping](./docs/compliance-mapping.md))
 
 ## 🚀 Quick Start
 
-Follow these simple steps to set up ConfigCobra and run your first CIS compliance assessment for Microsoft 365.
+Follow these simple steps to onboard your tenant with ConfigCobra and run your first CIS compliance assessment for Microsoft 365.
 
-![ConfigCobra Dashboard](images/ConfigCobraApp/Dashboard/01_Dashboard.png)
+![ConfigCobra Dashboard](resources/images/ConfigCobraApp/Dashboard/01_Dashboard.png)
 
 > ⚠️ **Important License Requirements**
 > 
@@ -38,69 +38,49 @@ Follow these simple steps to set up ConfigCobra and run your first CIS complianc
 
 ## 📋 Step-by-Step Setup Guide
 
-### Step 1: Get started on Microsoft AppSource
+> 📌 **Onboarding is handled by our team.** ConfigCobra is no longer listed on Microsoft AppSource — subscriptions are provisioned directly through a short Contact-Us onboarding. You'll need your **Microsoft 365 Tenant ID** to get started.
 
-Visit the [Microsoft AppSource marketplace](https://marketplace.microsoft.com/en-us/product/saas/nologiesholdingkorltoltfelelssgtrsasg1726131505636.config_cobra_01?tab=Overview) to acquire your ConfigCobra subscription.
+### Step 1: Contact ConfigCobra
 
-1. Go to Microsoft AppSource and press **"Get it now"**
+Go to [configcobra.com/contact](https://configcobra.com/contact) (or email **info@configcobra.com**) and include:
 
-   ![Get it now button on Microsoft AppSource](images/MicrosoftAppSource/01_GetItNow.png)
+- Your **Microsoft 365 Tenant ID** (the GUID of the tenant you want to assess)
+- The number of **licensed Microsoft 365 users** in that tenant (excluding guest users)
+- The plan you're interested in (Small / Medium / Large / Enterprise / MSP Assessment License / free trial)
 
-2. To acquire a free trial, please select the **Standard** plan
+> 💡 **How to find your Tenant ID:** Sign in to the [Microsoft Entra admin center](https://entra.microsoft.com), go to **Identity → Overview**, and copy the **Tenant ID** field. See Microsoft's guide: [How to find your Microsoft 365 tenant ID](https://learn.microsoft.com/entra/fundamentals/how-to-find-tenant).
 
-   ![Select Standard plan for free trial](images/MicrosoftAppSource/02_Plan.png)
+### Step 2: We activate your tenant
 
-### Step 2: Provide your user count
+Once we receive your request, our team validates the tenant and provisions your workspace. You'll get a confirmation email — usually within one business day — with your login link and next steps.
 
-Enter the number of licensed users in your organization. **This is important** because the application only works if you have that many licenses as many licensed users you have (excluded guest users).
+![Activation confirmation email](resources/images/MicrosoftAppSource/07_ActivationEmail.png)
 
-![Terms and user count selection](images/MicrosoftAppSource/03_Terms&UserCount.png)
+### Step 3: Log in to ConfigCobra
 
-### Step 3: Complete your order
+Head to [app.configcobra.com](https://app.configcobra.com) and sign in with your Microsoft 365 account using Single Sign-On.
 
-Select your billing account and billing profile, then place your order through the Microsoft AppSource checkout process.
+### Step 4: Accept admin consent
 
-![Select billing account](images/MicrosoftAppSource/04_BillingAccount.png)
+Accept all the permissions on the admin consent page. This is required for ConfigCobra to read your Microsoft 365 configuration through Microsoft Graph (read-only).
 
-![Complete purchase](images/MicrosoftAppSource/05_CompletePurchase.png)
+![Admin consent page - Part 1](resources/images/MicrosoftAppSource/08_AdminConsent1.png)
 
-### Step 4: Activate your subscription
+![Admin consent page - Part 2](resources/images/MicrosoftAppSource/09_AdminConsent2.png)
 
-Follow the activation link to our fulfillment platform and activate your subscription. This link will be provided after you complete your purchase on Microsoft AppSource.
+### Step 5: Configure missing role permissions
 
-![Activate subscription](images/MicrosoftAppSource/06_ActivateSubscription.png)
+After login, go to the **Assessment page**. You will see some controls that have a **Missing Permissions** blue tag.
 
-### Step 5: Receive confirmation email
-
-Once your subscription is activated by our team, you will receive a confirmation email with your login credentials and next steps.
-
-![Activation confirmation email](images/MicrosoftAppSource/07_ActivationEmail.png)
-
-### Step 6: Log in to ConfigCobra
-
-Head to [app.configcobra.com](https://app.configcobra.com) and log in using the credentials from your confirmation email.
-
-### Step 7: Accept permissions
-
-Accept all the permissions on the admin consent page. This is required for ConfigCobra to access and assess your Microsoft 365 configurations.
-
-![Admin consent page - Part 1](images/MicrosoftAppSource/08_AdminConsent1.png)
-
-![Admin consent page - Part 2](images/MicrosoftAppSource/09_AdminConsent2.png)
-
-### Step 8: Configure missing permissions
-
-After login, go to the **Assessment page**. You will see some controls that have a **Role required** blue tag.
-
-![Assessment page with Role required tags](images/MicrosoftAppSource/10_RolePermissions.png)
+![Assessment page with Missing Permissions tags](resources/images/MicrosoftAppSource/10_RolePermissions.png)
 
 **If you are an administrator:**
-- Select all permissions as an administrator and activate them
+- Click the control, then press **"ASSIGN"** to automatically assign the required roles and permissions
 
 **If you are a regular user:**
-- Send the instructions provided in the **Do It Manually** section to your global administrator to grant the necessary permissions
+- Press **"DO IT MANUALLY"** and send the instructions to your global administrator to grant the necessary permissions
 
-  ![Assign role permissions as administrator](images/MicrosoftAppSource/11_RolePermissionsAssign.png)
+  ![Assign role permissions as administrator](resources/images/MicrosoftAppSource/11_RolePermissionsAssign.png)
 
 ## ✅ You're Ready!
 
@@ -112,7 +92,7 @@ For more information and resources, visit [configcobra.com](https://configcobra.
 
 ### Core Features
 
-- 📖 **[Getting Started](./docs/getting-started.md)** - Complete setup guide from subscription to first assessment
+- 📖 **[Getting Started](./docs/getting-started.md)** - Complete onboarding guide from Contact Us to first assessment
 - 🎯 **[Assessments](./docs/assessments.md)** - How to run CIS compliance assessments and understand results
 - 📄 **[Reports & Evidence](./docs/reports.md)** - View, download, and understand CIS-approved assessment reports
 - 📋 **[Rule Sets](./docs/rule-sets.md)** - Create custom collections of CIS controls for your organization
@@ -140,7 +120,7 @@ ConfigCobra automatically assesses your Microsoft 365 environment against CIS Be
 - 🔎 Scans all 129 CIS controls for [Microsoft 365 Foundations Benchmark](https://www.cisecurity.org/benchmark/microsoft_365)
 - 🚨 Detects misconfigurations and security gaps
 - 📝 Provides detailed remediation instructions
-- 📊 Generates audit-ready PDF reports ([Example Report](images/ConfigCobraApp/Reports/ExampleReport.pdf))
+- 📊 Generates audit-ready PDF reports ([Example Report](resources/images/ConfigCobraApp/Reports/ExampleReport.pdf))
 
 ### 🌍 Multi-Standard Compliance Mapping
 
@@ -179,11 +159,10 @@ You can also report bugs 🐛, ask questions ❓, or share feedback 💡 on our 
 
 - 🌐 **Application**: [app.configcobra.com](https://app.configcobra.com)
 - 🌍 **Website**: [configcobra.com](https://configcobra.com)
-- 🛒 **Microsoft AppSource**: [Get ConfigCobra](https://marketplace.microsoft.com/en-us/product/saas/nologiesholdingkorltoltfelelssgtrsasg1726131505636.config_cobra_01?tab=Overview)
+- ✉️ **Onboarding**: [configcobra.com/contact](https://configcobra.com/contact) · **info@configcobra.com**
 - 🏆 **CIS Benchmark**: [CIS Microsoft 365 Foundations Benchmark](https://www.cisecurity.org/benchmark/microsoft_365)
 - 💬 **Support**: [Report Issues & Questions](https://configcobra.com/#contact)
 
 ---
 
 **ConfigCobra** - Automated CIS Compliance for Microsoft 365 | [configcobra.com](https://configcobra.com)
-

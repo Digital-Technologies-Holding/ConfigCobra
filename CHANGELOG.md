@@ -94,11 +94,11 @@ We're excited to announce the first release of ConfigCobra v1.0.0 - your compreh
 - ✅ **Notification Preferences** - Configure Windows and email notification settings
 - ✅ **Account Settings** - Manage account preferences
 
-#### Microsoft AppSource Integration
-- ✅ **Marketplace Availability** - Available through Microsoft AppSource marketplace
-- ✅ **Free Trial** - Standard plan available with free trial option
-- ✅ **User-Based Licensing** - Licensing based on number of licensed users
-- ✅ **Fulfillment Platform** - Seamless subscription activation
+#### Onboarding & Licensing
+- ✅ **Contact-Us Onboarding** - Provisioned directly by the ConfigCobra team; submit your Microsoft 365 Tenant ID via [configcobra.com/contact](https://configcobra.com/contact) or **info@configcobra.com**
+- ✅ **Free Trial** - 14-day trial available on request
+- ✅ **User-Based Licensing** - Licensing based on number of licensed Microsoft 365 users
+- ✅ **Team-Managed Activation** - Workspace provisioned within one business day of contact
 
 ### 📚 Documentation
 
@@ -112,7 +112,7 @@ We're excited to announce the first release of ConfigCobra v1.0.0 - your compreh
 
 - ✅ Application: [app.configcobra.com](https://app.configcobra.com)
 - ✅ Website: [configcobra.com](https://configcobra.com)
-- ✅ Microsoft AppSource: Available for subscription
+- ✅ Onboarding: [configcobra.com/contact](https://configcobra.com/contact) · **info@configcobra.com**
 - ✅ GitHub: Documentation and issue tracking
 
 ---

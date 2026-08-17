@@ -1,6 +1,6 @@
 # Getting Started with ConfigCobra
 
-Follow these simple steps to set up ConfigCobra and run your first CIS compliance assessment for Microsoft 365.
+Follow these simple steps to onboard your tenant with ConfigCobra and run your first CIS compliance assessment for Microsoft 365.
 
 Learn more at [configcobra.com](https://configcobra.com)
 
@@ -8,71 +8,51 @@ Learn more at [configcobra.com](https://configcobra.com)
 > 
 > CIS Benchmarks are based on **Microsoft 365 E3 and E5 licenses**. Although we can scan some controls without them, having some kind of **Microsoft Defender license** (Defender for Office 365, Defender for Endpoint, or Microsoft Defender XDR) is a **minimum requirement** for full functionality.
 
+> 📌 **Onboarding is handled by our team.** ConfigCobra is no longer listed on Microsoft AppSource — subscriptions are provisioned directly through a short Contact-Us onboarding. You'll need your **Microsoft 365 Tenant ID** to get started.
+
 ## Step-by-Step Setup Guide
 
-### Step 1: Get started on Microsoft AppSource
+### Step 1: Contact ConfigCobra
 
-Visit the [Microsoft AppSource marketplace](https://marketplace.microsoft.com/en-us/product/saas/nologiesholdingkorltoltfelelssgtrsasg1726131505636.config_cobra_01?tab=Overview) to acquire your ConfigCobra subscription.
+Go to [configcobra.com/contact](https://configcobra.com/contact) (or email **info@configcobra.com**) and include:
 
-1. Go to Microsoft AppSource and press **"Get it now"**
+- Your **Microsoft 365 Tenant ID** (the GUID of the tenant you want to assess)
+- The number of **licensed Microsoft 365 users** in that tenant (excluding guest users)
+- The plan you're interested in (Small / Medium / Large / Enterprise / MSP Assessment License / free trial)
 
-   ![Get it now button on Microsoft AppSource](../images/MicrosoftAppSource/01_GetItNow.png)
+> 💡 **How to find your Tenant ID:** Sign in to the [Microsoft Entra admin center](https://entra.microsoft.com), go to **Identity → Overview**, and copy the **Tenant ID** field. See Microsoft's guide: [How to find your Microsoft 365 tenant ID](https://learn.microsoft.com/entra/fundamentals/how-to-find-tenant).
 
-2. To acquire a free trial, please select the **Standard** plan
+### Step 2: We activate your tenant
 
-   ![Select Standard plan for free trial](../images/MicrosoftAppSource/02_Plan.png)
+Once we receive your request, our team validates the tenant and provisions your workspace. You'll get a confirmation email — usually within one business day — with your login link and next steps.
 
-### Step 2: Provide your user count
+![Activation confirmation email](../resources/images/MicrosoftAppSource/07_ActivationEmail.png)
 
-Enter the number of licensed users in your organization. **This is important** because the application only works if you have that many licenses as many licensed users you have (excluded guest users).
+### Step 3: Log in to ConfigCobra
 
-![Terms and user count selection](../images/MicrosoftAppSource/03_Terms&UserCount.png)
+Head to [app.configcobra.com](https://app.configcobra.com) and sign in with your Microsoft 365 account using Single Sign-On.
 
-### Step 3: Complete your order
+### Step 4: Accept admin consent
 
-Select your billing account and billing profile, then place your order through the Microsoft AppSource checkout process.
+Accept all the permissions on the admin consent page. This is required for ConfigCobra to read your Microsoft 365 configuration through Microsoft Graph (read-only).
 
-![Select billing account](../images/MicrosoftAppSource/04_BillingAccount.png)
+![Admin consent page - Part 1](../resources/images/MicrosoftAppSource/08_AdminConsent1.png)
 
-![Complete purchase](../images/MicrosoftAppSource/05_CompletePurchase.png)
+![Admin consent page - Part 2](../resources/images/MicrosoftAppSource/09_AdminConsent2.png)
 
-### Step 4: Activate your subscription
+### Step 5: Configure missing role permissions
 
-Follow the activation link to our fulfillment platform and activate your subscription. This link will be provided after you complete your purchase on Microsoft AppSource.
+After login, go to the **Assessment page**. You will see some controls that have a **Missing Permissions** blue tag.
 
-![Activate subscription](../images/MicrosoftAppSource/06_ActivateSubscription.png)
-
-### Step 5: Receive confirmation email
-
-Once your subscription is activated by our team, you will receive a confirmation email with your login credentials and next steps.
-
-![Activation confirmation email](../images/MicrosoftAppSource/07_ActivationEmail.png)
-
-### Step 6: Log in to ConfigCobra
-
-Head to [app.configcobra.com](https://app.configcobra.com) and log in using the credentials from your confirmation email.
-
-### Step 7: Accept permissions
-
-Accept all the permissions on the admin consent page. This is required for ConfigCobra to access and assess your Microsoft 365 configurations.
-
-![Admin consent page - Part 1](../images/MicrosoftAppSource/08_AdminConsent1.png)
-
-![Admin consent page - Part 2](../images/MicrosoftAppSource/09_AdminConsent2.png)
-
-### Step 8: Configure missing permissions
-
-After login, go to the **Assessment page**. You will see some controls that have a **Role required** blue tag.
-
-![Assessment page with Role required tags](../images/MicrosoftAppSource/10_RolePermissions.png)
+![Assessment page with Missing Permissions tags](../resources/images/MicrosoftAppSource/10_RolePermissions.png)
 
 **If you are an administrator:**
-- Select all permissions as an administrator and activate them
+- Click the control, then press **"ASSIGN"** to automatically assign the required roles and permissions
 
 **If you are a regular user:**
-- Send the instructions provided in the **Do It Manually** section to your global administrator to grant the necessary permissions
+- Press **"DO IT MANUALLY"** and send the instructions to your global administrator to grant the necessary permissions
 
-  ![Assign role permissions as administrator](../images/MicrosoftAppSource/11_RolePermissionsAssign.png)
+  ![Assign role permissions as administrator](../resources/images/MicrosoftAppSource/11_RolePermissionsAssign.png)
 
 
 
@@ -92,4 +72,3 @@ Visit [configcobra.com](https://configcobra.com) for additional resources and su
 ---
 
 [← Back to Documentation](../README.md) | [Next: Assessments →](./assessments.md)
-

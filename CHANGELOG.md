@@ -5,6 +5,28 @@ All notable changes to ConfigCobra will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.0] - 2026-08-24
+
+### 🚀 CIS Microsoft 365 Foundations Benchmark v7.0.0
+
+ConfigCobra now assesses your Microsoft 365 tenant against the **CIS Microsoft 365 Foundations Benchmark v7.0.0** — the current CIS standard — replacing the previous v5.0.0 benchmark.
+
+### 🔀 Changed
+
+- ✅ **Upgraded to CIS Microsoft 365 Foundations Benchmark v7.0.0** - All assessments now run against the v7.0.0 benchmark
+- ✅ **160 controls** across 9 sections (up from 129) - 143 automated and 17 manual recommendations
+- ✅ **Expanded coverage** - Notably broader Microsoft Entra (63 controls), Microsoft Defender (21), and Microsoft Teams (17) sections; new and revised controls across every section
+- ✅ **Updated compliance mapping** - Multi-standard theoretical mapping refreshed for the v7.0.0 control set
+
+### ✨ Added
+
+- ✅ **License-free assessment engine** - Cross-platform PowerShell engine using read-only Microsoft Graph, Exchange Online, Purview, SharePoint, Teams, and Fabric access — no CIS-CAT license required
+- ✅ **Per-control evidence** - Every result includes the observed configuration values and finding message
+
+### 📝 Notes
+
+- Reports and dashboards are tagged with the benchmark version, so historical v5.0.0 assessments remain viewable alongside new v7.0.0 results.
+
 ## [1.0.0] - 2024-11-01
 
 ### 🎉 Initial Release

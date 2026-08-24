@@ -2,7 +2,7 @@
 
 **Automated CIS Compliance for Microsoft 365**
 
-ConfigCobra is a SaaS application that automates [CIS Microsoft 365 Foundations Benchmark](https://www.cisecurity.org/benchmark/microsoft_365) assessments. We provide comprehensive theoretical mapping between CIS controls and 24+ security standards and frameworks, including SOC 2, NIS2, HIPAA, PCI DSS, ISO 27001, and many more. **Note:** Currently, ConfigCobra generates CIS-certified reports only. Framework-specific certified reports are planned for future releases.
+ConfigCobra is a SaaS application that automates [CIS Microsoft 365 Foundations Benchmark](https://www.cisecurity.org/benchmark/microsoft_365) **v7.0.0** assessments. We provide comprehensive theoretical mapping between CIS controls and 24+ security standards and frameworks, including SOC 2, NIS2, HIPAA, PCI DSS, ISO 27001, and many more. **Note:** Currently, ConfigCobra generates CIS-certified reports only. Framework-specific certified reports are planned for future releases.
 
 Learn more at [configcobra.com](https://configcobra.com)
 
@@ -18,7 +18,7 @@ Visit [configcobra.com](https://configcobra.com) to learn more about our feature
 
 ### ✨ Key Features
 
-- ✅ **Automated Assessments** - Runs automated assessments of all 129 CIS controls
+- ✅ **Automated Assessments** - Runs automated assessments of all 160 CIS controls (CIS Microsoft 365 Foundations Benchmark v7.0.0)
 - ✅ **Real-time Detection** - Detects configuration drift in real-time
 - ✅ **Remediation Guidance** - Provides clear remediation guidance for each finding
 - ✅ **Audit-ready Reports** - Generates [CIS-approved](https://www.cisecurity.org/) PDF reports with evidence. [View Example Report](resources/images/ConfigCobraApp/Reports/ExampleReport.pdf)
@@ -117,7 +117,7 @@ For more information and resources, visit [configcobra.com](https://configcobra.
 
 ConfigCobra automatically assesses your Microsoft 365 environment against CIS Benchmark standards. The platform:
 
-- 🔎 Scans all 129 CIS controls for [Microsoft 365 Foundations Benchmark](https://www.cisecurity.org/benchmark/microsoft_365)
+- 🔎 Scans all 160 CIS controls for [Microsoft 365 Foundations Benchmark v7.0.0](https://www.cisecurity.org/benchmark/microsoft_365)
 - 🚨 Detects misconfigurations and security gaps
 - 📝 Provides detailed remediation instructions
 - 📊 Generates audit-ready PDF reports ([Example Report](resources/images/ConfigCobraApp/Reports/ExampleReport.pdf))
@@ -160,7 +160,7 @@ You can also report bugs 🐛, ask questions ❓, or share feedback 💡 on our 
 - 🌐 **Application**: [app.configcobra.com](https://app.configcobra.com)
 - 🌍 **Website**: [configcobra.com](https://configcobra.com)
 - ✉️ **Onboarding**: [configcobra.com/contact](https://configcobra.com/contact) · **info@configcobra.com**
-- 🏆 **CIS Benchmark**: [CIS Microsoft 365 Foundations Benchmark](https://www.cisecurity.org/benchmark/microsoft_365)
+- 🏆 **CIS Benchmark**: [CIS Microsoft 365 Foundations Benchmark v7.0.0](https://www.cisecurity.org/benchmark/microsoft_365)
 - 💬 **Support**: [Report Issues & Questions](https://configcobra.com/#contact)
 
 ---

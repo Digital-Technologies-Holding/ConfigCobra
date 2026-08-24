@@ -4,6 +4,8 @@ ConfigCobra provides comprehensive **theoretical mapping** between CIS Microsoft
 
 **⚠️ Important:** ConfigCobra currently generates **CIS-certified reports only**. Framework-specific certified reports (e.g., SOC 2-certified, HIPAA-certified) are planned for future releases. The mapping data provided here is theoretical and can be used alongside CIS reports to support compliance with other standards.
 
+> **ℹ️ Benchmark version:** Assessments now run against the **CIS Microsoft 365 Foundations Benchmark v7.0.0** (160 controls). The coverage statistics in the table below were computed against the earlier control set (141 controls) and are being recomputed for v7.0.0; the mapped frameworks and their relationships are unchanged.
+
 This document details the coverage and mapping statistics for each supported standard.
 
 ## 📊 Mapping Overview
@@ -44,7 +46,7 @@ The following table shows how CIS Microsoft 365 Foundations Benchmark controls m
 - **All Directive Controls** - Total number of controls in the compliance framework
 - **Mapped to CIS M365** - Number of framework controls that map to CIS M365 controls
 - **Mapped to CIS M365 (%)** - Percentage of framework controls covered by CIS M365
-- **All CIS M365 Controls** - Total CIS Microsoft 365 Foundations Benchmark controls (141)
+- **All CIS M365 Controls** - Total CIS Microsoft 365 Foundations Benchmark controls used for the mapping (141)
 - **CIS M365 Mapped to Directive** - Number of CIS M365 controls that map to the framework
 - **CIS M365 Mapped to Directive (%)** - Percentage of CIS M365 controls that map to the framework
 
